@@ -1,0 +1,22 @@
+#header {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: purple;
+    text-align: center;
+}
+img {
+    margin: 0 auto;
+    display: block;
+}
+ul {
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+h2 {
+    font-size: 35px;
+    background-color: goldenrod;
+    color: blue;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+}
