@@ -1,7 +1,10 @@
+body {
+    background-color: beige;
+}
 #header {
-    color: white;
+    color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
-    background-color: purple;
+    background: linear-gradient(90deg, orange, white, green);
     text-align: center;
 }
 img {
@@ -13,10 +16,13 @@ ul {
     background-color: antiquewhite;
 }
 h2 {
-    font-size: 35px;
-    background-color: goldenrod;
-    color: blue;
+    font-size: 31px;
+    background: linear-gradient(90deg, orange, white, green);
+    color: blueviolet;
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
     text-align: center;
+}
+ol {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
