@@ -1,5 +1,8 @@
 body {
-    background-color: beige;
+    background: linear-gradient(
+        135deg, white, grey 
+    );
+    margin: 0;
 }
 #header {
     color: blueviolet;
@@ -8,19 +11,17 @@ body {
     text-align: center;
 }
 img {
-    margin: 0 auto;
+    margin: 1.5rem auto;
     display: block;
     width: 400px;
     height: auto;
 }
-ul {
-    font-size: 20px;
-    background-color: antiquewhite;
-}
 h2 {
     font-size: 31px;
-    background: linear-gradient(90deg, orange, white, green);
-    color: blueviolet;
+    background: linear-gradient(
+        90deg, white 49%, black
+    );
+    color: black;
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
     text-align: center;
@@ -31,4 +32,42 @@ ol {
 }
 li {
     font-size: 24px;
+}
+header {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: linear-gradient(
+        90deg, black 58%, white
+    );
+    color: white;
+    display: block;
+    padding-bottom: 2rem;
+}
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    margin: 0;
+    background: linear-gradient(
+        270deg, white, black
+    );
+    padding: 1rem 0;
+}
+li {
+    list-style: none;
+    margin: 0.6rem 1rem;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+#combo {
+    position: sticky;
+    top: 0;
+}
+li a:hover {
+    background-color: black;
+    color: whitesmoke;
 }
